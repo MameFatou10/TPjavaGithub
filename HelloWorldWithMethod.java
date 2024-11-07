@@ -1,14 +1,11 @@
 public class HelloWorldWithMethod {
-    private String x ;
-    public void Hello(String n){
-         x=n ;
-    }
-    public void afficher() {
-              System.out.println(x);
+    String n ;
+   public void Hello(String n){
+    System.out.println(n);
     }
     public static void main(String[] args) {
-        HelloWorldWithMethod a = new HelloWorldWithMethod();
-        a.Hello("You're Welcome");
-        a.afficher();
+        HelloWorldWithMethod s = new HelloWorldWithMethod();
+        s.Hello("You're Welcome");
+        
     }
 }
